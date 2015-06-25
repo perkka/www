@@ -1,0 +1,25 @@
+<!-- 
+  This template gets placed in the Party tab's <ion-nav-view> directive.
+  It was wired up in the app config (app.js) 
+  The 'party' data comes from its $scope within petIndexCtrl (controller.js)
+-->
+<ion-view title="'Party'">
+  <ion-content has-header="true" has-tabs="true">
+
+    <ion-list>
+
+      <ion-item type="item-text-wrap" href="#/tab/party">
+        <h3>Party</h3>
+          <p>dnajsndjasndjasndjasnd</p>
+      </ion-item>
+      
+    </ion-list>
+    <button class="button button-block button-positive" ng-click="takePicture()">
+            Take a Picture
+        </button>
+ 
+        <img class="padding" ng-src="{{imgSrc}}">
+  
+
+  </ion-content>
+</ion-view>
